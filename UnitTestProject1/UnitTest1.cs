@@ -29,10 +29,10 @@ namespace hashtable
         {
             var check = new HashTable(2);
 
-            check.PutPair("aa", 3232);
-            check.PutPair("aa", 342);
+            check.PutPair("a", 3232);
+            check.PutPair("a", 342);
             
-            Assert.AreEqual(check.GetValueByKey("aa"), 342);
+            Assert.AreEqual(check.GetValueByKey("a"), 342);
         }
 
         [TestMethod]
