@@ -26,6 +26,7 @@ namespace hashtable
 
         [TestMethod]
         public void EquialElements()
+
         {
             var check = new HashTable(2);
 
