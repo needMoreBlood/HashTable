@@ -12,6 +12,7 @@ namespace hashtable
         {
             var check = new HashTable(3);
 
+
             for (int i = 0; i < 3; i++)
             {
                 check.PutPair(i, i);
