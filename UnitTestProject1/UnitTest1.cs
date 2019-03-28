@@ -20,7 +20,6 @@ namespace hashtable
             for (int i = 0; i < 3; i++)
             {
                 Assert.AreEqual(check.GetValueByKey(i), i);
-
             }
         }
 
